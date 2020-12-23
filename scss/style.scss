@@ -1,0 +1,70 @@
+
+
+//@import 'bootstrap';
+
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "nav";
+@import "navbar";
+@import "close";
+@import "toasts";
+@import "spinners";
+@import "utilities";
+
+
+
+html{
+    font-size: 16px;
+    min-height: 100vh;
+    
+}
+
+header{
+    padding: 0;
+    height: 100px;
+}
+
+  body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    //justify-content: space-between;
+  }
+
+  #menu{
+    
+    position: fixed;
+    top: 0;
+    right:0;
+    z-index:1030;
+    text-align: right;
+    background-color: #FFFFFFB1;
+    width: 200px; //20vw;
+  }
+
+  .navbar-collapse.show{
+    height: 100vh;
+    //width: 200px; //20vw;
+  }
+main{
+  background-color: red;
+}
+
+footer {
+    height: 30px;
+}
+
+main {
+    flex: 1;
+}
