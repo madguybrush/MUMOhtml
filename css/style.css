@@ -220,8 +220,7 @@ button {
 }
 
 button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: none;
 }
 
 input,
@@ -2816,7 +2815,6 @@ input[type=button].btn-block {
 }
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
-  border-color: rgba(0, 0, 0, 0.1);
 }
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -6834,12 +6832,12 @@ body {
   width: 200px;
 }
 
-.navbar-collapse.show {
+.navbar-collapse {
   height: 100vh;
 }
 
 main {
-  background-color: red;
+  background-color: white;
 }
 
 footer {
@@ -6848,6 +6846,24 @@ footer {
 
 main {
   flex: 1;
+}
+
+.hp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.collection {
+  background-image: url("../img/accueil/MUMO-OBJET-6.png");
+}
+
+.collection:hover {
+  background-image: none;
+}
+
+.surmesure:hover {
+  background-image: url("../img/accueil/MUMO-SURMESURE.png");
 }
 
 /*# sourceMappingURL=style.css.map */
