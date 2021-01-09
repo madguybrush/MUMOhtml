@@ -25,14 +25,18 @@
 
 
 html{
-    font-size: 16px;
+    //font-size: 16px;
     min-height: 100vh;
-    
+    font-size: 100%;
+}
+
+#loader{
+  display: flex;
 }
 
 header{
     padding: 0;
-    height: 100px;
+    //height: 100px;
 }
 
   body {
@@ -62,9 +66,7 @@ main{
   background-color: white;
 }
 
-footer {
-    height: 30px;
-}
+
 
 main {
     flex: 1;
@@ -78,13 +80,51 @@ main {
 
 .collection{
   background-image: url('../img/accueil/MUMO-OBJET-6.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 1s;
+  opacity: 0.5;
 }
 
 .collection:hover{
+ //background: transparent url('../img/accueil/MUMO-OBJET-6.png') 0% 0% no-repeat padding-box;
+  //background-image: none;
+  opacity: 1;
+}
 
-  background-image: none;
+.surmesure{
+  background-image: url('../img/accueil/MUMO-SURMESURE.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 1s;
+  opacity: 0.5;
 }
 
 .surmesure:hover{
-  background-image: url('../img/accueil/MUMO-SURMESURE.png');
+  //background-image: url('../img/accueil/MUMO-SURMESURE.png');
+  opacity: 1;
+}
+
+a{
+  color: #010101;
+  //transition: all 1s;
+  font-weight: 400;
+}
+a:hover{
+  color: #010101;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: .7rem;
+}
+
+
+footer {
+  height: 30px;
+  font-size: 0.6rem;
 }

@@ -19,17 +19,16 @@ $( window ).on('load', function(){
    // PAGE IS FULLY LOADED  
    // FADE OUT YOUR OVERLAYING DIV
 		
-	/*	$('.container-loader').css('opacity', '0'); 
-		$('.container-loader').addClass('d-none ');
-		$('.loader').addClass('d-none ');
+		$('#loader').css('opacity', '0'); 
+		$('#loader').addClass('d-none ');
 		
-			$('header').removeClass('d-none');
-		$('#bienvenue').removeClass('d-none');
-		$('.navbar').removeClass('d-none');
+		
+		$('header').removeClass('d-none');
+		$('#menu').removeClass('d-none');
+		$('main').removeClass('d-none');
 		$('footer').removeClass('d-none');
-		$('#hp').removeClass('d-none');
-*/
-		//$('#sousmenuconseils').removeClass('d-none');
+	
+
 
 		//resized();
 });
