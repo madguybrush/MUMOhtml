@@ -71,12 +71,38 @@ $( window ).on('load', function(){
 
    } )( jQuery );
    
-
+/*
 $('.fermercredits').on('click',function(){
     $('.popup.credits').hide();
 
 });
-
+*/
    
+
+function popin(){
+    
+	$('#popup').show(); 
+   //$('#popup').css('display', 'block');
+   //popinactive = 1;
+}
+
+$('.fermernl').on('click',function(){
+    $('#popup').hide(); 
+    $('#popupmaps').hide(); 
+    $('#popupmentions').hide(); 
+
+});
+
+
+$('.popup').on('click',function(){
+    $('#popup').hide(); 
+    $('#popupmaps').hide(); 
+    $('#popupmentions').hide(); 
+});
+
+$('.popupcontent').on('click',function(e){
+    e.stopPropagation();
+
+});
 
 

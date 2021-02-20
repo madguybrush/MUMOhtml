@@ -6821,6 +6821,9 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  /* font-family: source-sans-pro, sans-serif;
+   font-weight: 400;
+   font-style: normal;*/
 }
 
 #menu {
@@ -6831,6 +6834,14 @@ body {
   text-align: right;
   background-color: #FFFFFFB1;
   width: 200px;
+  font-family: source-sans-pro, sans-serif;
+  letter-spacing: 3.2px;
+  color: #010101;
+}
+
+i {
+  letter-spacing: 0.8px;
+  font-family: "GFS Didot", serif;
 }
 
 .navbar-collapse {
@@ -6877,7 +6888,6 @@ main {
 
 a {
   color: #010101;
-  font-weight: 400;
 }
 
 a:hover {
@@ -6888,15 +6898,103 @@ a:hover {
 
 h1 {
   font-size: 3rem;
+  font-family: "GFS Didot", serif;
+  font-weight: 600;
+}
+
+h1:hover {
+  text-decoration: underline;
 }
 
 h2 {
+  font-size: 2rem;
+  font-family: "GFS Didot", serif;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-family: "GFS Didot", serif;
+  font-weight: 600;
+}
+
+h4 {
   font-size: 0.7rem;
+  font-family: source-sans-pro, sans-serif;
+  letter-spacing: 2.6px;
+  font-weight: 400;
 }
 
 footer {
   height: 30px;
   font-size: 0.6rem;
+}
+
+.rs {
+  width: 22px;
+  margin: 5px;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  top: 0;
+  padding-top: 10vh;
+  display: none;
+  z-index: 50000;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+}
+
+.popupcontent {
+  position: relative;
+  background-color: #FFFFFF;
+  height: 90%;
+  margin: 0 auto;
+  overflow: auto;
+  border: #000000 1px solid;
+}
+
+.fermernl {
+  position: absolute;
+  top: 51px;
+  right: 41px;
+  z-index: 999;
+  /*     transform: rotate(45deg);
+   transform-origin: center;*/
+}
+
+.btnfermernl {
+  /*background-color: transparent;
+  color: #C96B54;
+  font-size: 2rem;*/
+  border: none;
+  -webkit-transition: all 1s;
+  /* Safari prior 6.1 */
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.btnfermernl:hover {
+  /*color: #2B3441;
+  border: none;
+  outline: none;*/
+  -webkit-transition: all 1s;
+  /* Safari prior 6.1 */
+  transition: all 1s;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 70%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
