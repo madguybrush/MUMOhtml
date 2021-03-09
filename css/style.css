@@ -6841,7 +6841,7 @@ body {
 
 i {
   letter-spacing: 0.8px;
-  font-family: "GFS Didot", serif;
+  font-family: aw-conqueror-didot, serif;
 }
 
 .navbar-collapse {
@@ -6898,7 +6898,7 @@ a:hover {
 
 h1 {
   font-size: 3rem;
-  font-family: "GFS Didot", serif;
+  font-family: aw-conqueror-didot, serif;
   font-weight: 600;
 }
 
@@ -6908,13 +6908,13 @@ h1:hover {
 
 h2 {
   font-size: 2rem;
-  font-family: "GFS Didot", serif;
+  font-family: aw-conqueror-didot, serif;
   font-weight: 600;
 }
 
 h3 {
   font-size: 1.3rem;
-  font-family: "GFS Didot", serif;
+  font-family: aw-conqueror-didot, serif;
   font-weight: 600;
 }
 
