@@ -6888,6 +6888,7 @@ main {
 
 a {
   color: #010101;
+  text-decoration: none;
 }
 
 a:hover {
@@ -6899,7 +6900,8 @@ a:hover {
 h1 {
   font-size: 3rem;
   font-family: aw-conqueror-didot, serif;
-  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
 }
 
 h1:hover {
@@ -6909,13 +6911,13 @@ h1:hover {
 h2 {
   font-size: 2rem;
   font-family: aw-conqueror-didot, serif;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h3 {
   font-size: 1.3rem;
   font-family: aw-conqueror-didot, serif;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h4 {
@@ -6960,6 +6962,16 @@ footer {
   margin: 0 auto;
   overflow: auto;
   border: #000000 1px solid;
+}
+
+.popupcontent a {
+  color: #010101;
+  text-decoration: underline;
+}
+
+.popupcontent a:hover {
+  color: #010101;
+  text-decoration: none;
 }
 
 .fermernl {
