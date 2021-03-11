@@ -6832,7 +6832,6 @@ body {
   right: 0;
   z-index: 1030;
   text-align: right;
-  background-color: #FFFFFFB1;
   width: 200px;
   font-family: source-sans-pro, sans-serif;
   letter-spacing: 3.2px;
@@ -6846,6 +6845,52 @@ i {
 
 .navbar-collapse {
   height: 100vh;
+}
+
+.navbar {
+  background-color: #FFFFFFB1;
+}
+
+#btnmenu {
+  padding: 0rem 2rem;
+}
+
+.bar1, .bar3 {
+  width: 25px;
+  height: 2px;
+  background-color: #000;
+  /*82D173*/
+  margin-top: 0;
+  transition: 0.4s;
+}
+
+.bar2 {
+  width: 25px;
+  height: 2px;
+  background-color: #000;
+  /*82D173*/
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: translate(0px, 8px) rotate(-45deg);
+  /*translate(-9px, 6px);*/
+  transform: translate(0px, 8px) rotate(-45deg);
+  /*translate(-9px, 6px);*/
+  background-color: #000;
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: translate(0px, -8px) rotate(45deg);
+  /*translate(-8px, -8px);*/
+  transform: translate(0px, -8px) rotate(45deg);
+  /* translate(-8px, -8px);*/
+  background-color: #000;
 }
 
 main {
