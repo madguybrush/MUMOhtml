@@ -6809,6 +6809,20 @@ html {
   font-size: 100%;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+/*
+body {
+  min-height:100vh;
+}
+
+.flex-fill {
+  flex:1 1 auto;
+}
+*/
 #loader {
   display: flex;
 }
@@ -6817,7 +6831,7 @@ header {
   padding: 0;
 }
 
-body {
+.bodyhp {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -6826,7 +6840,18 @@ body {
    font-style: normal;*/
 }
 
+#btnmenu {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1050;
+  color: #010101;
+  padding: 0rem 2rem;
+}
+
 #menu {
+  background-color: transparent;
   position: fixed;
   top: 0;
   right: 0;
@@ -6843,16 +6868,17 @@ i {
   font-family: aw-conqueror-didot, serif;
 }
 
+.navbar-brand img {
+  width: 85px;
+  max-width: 90%;
+}
+
 .navbar-collapse {
   height: 100vh;
 }
 
 .navbar {
   background-color: #FFFFFFB1;
-}
-
-#btnmenu {
-  padding: 0rem 2rem;
 }
 
 .bar1, .bar3 {
@@ -6946,7 +6972,7 @@ h1 {
   font-size: 3rem;
   font-family: aw-conqueror-didot, serif;
   font-weight: 700;
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.215rem;
 }
 
 h1:hover {
@@ -6965,20 +6991,50 @@ h3 {
   font-weight: 700;
 }
 
-h4 {
+.soustitre13 {
   font-size: 0.7rem;
   font-family: source-sans-pro, sans-serif;
-  letter-spacing: 2.6px;
+  /*letter-spacing: 2.6px;*/
+  letter-spacing: 0.163rem;
   font-weight: 400;
+  color: #000;
+}
+
+.soustitre21 {
+  font-size: 1.1rem;
+  font-family: source-sans-pro, sans-serif;
+  /*letter-spacing: 4.2px;*/
+  letter-spacing: 0.25rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.petittitrepage {
+  font-size: 1.2rem;
+  font-family: aw-conqueror-didot, serif;
+  /*letter-spacing: 2.2px;*/
+  letter-spacing: 0.15rem;
+  font-weight: 700;
+  color: #010101;
+}
+
+.titreproduit {
+  font-size: 3rem;
+  font-family: aw-conqueror-didot, serif;
+  /*letter-spacing: 3.24px;*/
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  color: #010101;
 }
 
 footer {
-  height: 30px;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.08rem;
+  font-family: source-sans-pro, sans-serif;
 }
 
 .rs {
-  width: 22px;
+  width: 28px;
   margin: 5px;
 }
 
@@ -7021,8 +7077,8 @@ footer {
 
 .fermernl {
   position: absolute;
-  top: 51px;
-  right: 41px;
+  top: 4vh;
+  right: 4vh;
   z-index: 999;
   /*     transform: rotate(45deg);
    transform-origin: center;*/
@@ -7048,9 +7104,55 @@ footer {
   transition: all 1s;
 }
 
+/*
+#collection {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+*/
+.produitcollection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 60vh;
+}
+
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 75%;
+  }
+}
 @media only screen and (max-width: 768px) {
   html {
     font-size: 70%;
+  }
+
+  .navbar-brand img {
+    width: 50px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .popup {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5vh;
+  }
+
+  #menu {
+    width: 100%;
+    background-color: #FFFFFF;
+    font-size: 1.5rem;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    padding-top: 20vh;
   }
 }
 

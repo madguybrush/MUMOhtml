@@ -88,6 +88,7 @@ $( window ).on('load', function(){
 			$('.navbar').addClass('fadeInRight');
 			$('.navbar-toggler').addClass('clicked');
 			$('#collapsibleNavbar').show();
+			//$('#collapsibleNavbar').css('display', 'flex');
 			linestocross();
 		}
 		//$('.toggler-clicked').removeClass('toggler-clicked');

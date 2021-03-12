@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">-->
     <title>MUMO</title>
   </head>
-  <body class="bodyhp">
+  <body class="d-flex flex-column">
 
     <div id="popup" class="popup ">
       <div class="popupcontent animated fadeInDown container-fluid ">
@@ -50,15 +50,20 @@
     </div>
 
     <header class="container-fluid d-none mt-4 px-sm-3">
-      <div class="row no-gutters">
-        <div class="col-6">
+      <div class="row no-gutters align-items-end">
+        <div class="col-2 col-xl-1">
           <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="logo MUMO"></a> 
         </div>
-      
-        <div class="col-6 text-right">
+        <div class="col-2 col-xl-2 text-left pb-2">
+          <span class="petittitrepage pr-3">COLLECTION</span>
+        </div>
+        <div class="col-7 col-xl-8 text-left pb-2">
+          <span class="soustitre21">
+            TOUT / ASSISES / TABLES / ACCESSOIRES / COLLECTION PARTICULIÈRE
+          </span>
+        </div>
+        <div class="col-1 text-right">
       <button id="btnmenu" class="navbar-toggler animated fadeIn mt-4" type="button" data-target="#collapsibleNavbar">
-        <!--<span class="navbar-toggler-icon"></span>-->
-        <!--<img src="img/SANDWICH.svg">-->
           <div class="bar1"></div>
           <div class="bar2"></div>
           <div class="bar3"></div>
@@ -97,21 +102,61 @@
       </nav>
     </div>
 
+       
 
+    <main id="collection" class="container-fluid d-none px-sm-5 ">
 
-
-
-    <main class="container-fluid d-none px-sm-3">
-
-      <div class="row text-center h-100 py-3 justify-content-center ">
-        <div class="col-lg-5 col-12 offset-1 m-3 hp collection animated fadeIn">
-          <h1><a href="collection.html">COLLECTION</a></h1>
-          <h4 class="soustitre13"><a href="">ASSISES</a> / <a href="">TABLES</a> / <a href="">ACCESSOIRES</a> / <a href="">COLLECTION PARTICULIÈRE</a></h4>
+      <div class="row no-gutters p-3 justify-content-center ">
+        <div class="col-lg-6 col-12 p-1 ">
+          <div class="produitcollection" style="background-image: url('img/collection/1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+            <h1 class="titreproduit pl-4 "><a href="collection.html">FAUTEUIL U</a></h1>
+            <h4 class="soustitre21 pl-4 pb-4"><a href="">CUIR </a> / <a href="">ACIER</a></h4>   
+          </div>
         </div>
-        <div class="col-lg-5 col-12 m-3 hp surmesure">
-          <h1><a href="surmesure.html">ARCHITECTURE <br />D’INTÉRIEUR</a></h1>
-          <h4 class="soustitre13"><a href="">AMÉNAGEMENT</a> / <a href="">LUMINAIRES</a> / <a href="">ASSISES</a> / <a href="">ACCESSOIRES</a></h7>
+        <div class="col-lg-6 col-12 p-1 ">
+          <div class="row"  style="height: 60vh;">
+            <div class="col-6 pr-1 pb-1 "  style="height: 30vh;">
+              <div class="h-100" style="background-image: url('img/collection/2.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+              </div>
+            </div>
+            <div class="col-6 pl-1 pb-1"  style="height: 30vh;">
+              <div class="h-100" style="background-image: url('img/collection/3.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                </div>
+            </div>
+            <div class="col-6 pr-1  pt-1"  style="height: 30vh;">
+              <div class="h-100" style="background-image: url('img/collection/4.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                </div>
+            </div>
+            <div class="col-6  pl-1 pt-1"  style="height: 30vh;">
+              <div class="h-100" style="background-image: url('img/collection/5.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                </div>
+            </div>
+          </div>
         </div>
+
+        <div class="col-12 p-1 ">
+          <div class="row" >
+            <div class="col-6 col-lg-3 pl-1 pr-1 pb-1" style="height: 30vh;">
+              <div class="h-100" style="background-image: url('img/collection/6.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 pr-1 pl-1 pb-1"  style="height: 30vh;">
+              <div class="h-100" style="background-image: url('img/collection/7.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 pr-1 pl-1 pb-1 pt-1 pt-lg-0" style="height: 30vh;">
+              <div class="h-100" style="background-image: url('img/collection/8.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                </div>
+            </div>
+            <div class="col-6 col-lg-3  pr-1 pl-1 pb-1 pt-1 pt-lg-0" style="height: 30vh;">
+              <div class="h-100" style="background-image: url('img/collection/9.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
 
     </main>
@@ -119,16 +164,16 @@
    
     <footer class="container-fluid d-none pb-1 px-sm-3">
       <div class="row no-gutters">
-        <div class="col-lg-5 col-xl-7 col-4 text-left">
+        <div class="col-md-7 col-4 text-left">
           <img src="img/logofooter.svg" style="max-height: 20px; max-width: 70px;"> / atelier@mumo.fr
         </div>
-        <div class="col-lg-3 col-xl-3 col-4 text-right">
+        <div class="col-md-3 col-4 text-right">
           Rester connectés
           <a href="" alt="instagram"><img src="img/insta.svg" class="rs"></a>
           <!--<a href="" alt="twitter"></a>-->
           <a href="" alt="facebook"><img src="img/fb.svg" class="rs"></a>
         </div>
-        <div class="col-lg-4 col-xl-2 col-4 text-right">
+        <div class="col-md-2 col-4 text-right">
           <a href="#" onclick="popin()">REVENDEURS</a> / <a href="#" >TÉLÉCHARGEMENTS</a>
         </div>
       </div>

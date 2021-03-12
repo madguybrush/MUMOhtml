@@ -31,6 +31,19 @@ html{
 
 }
 
+html, 
+body {
+    height: 100%;
+}
+/*
+body {
+  min-height:100vh;
+}
+
+.flex-fill {
+  flex:1 1 auto;
+}
+*/
 #loader{
   display: flex;
 }
@@ -40,7 +53,10 @@ header{
     //height: 100px;
 }
 
-  body {
+
+
+
+  .bodyhp {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -50,8 +66,21 @@ header{
     font-style: normal;*/
   }
 
+
+  #btnmenu{
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    right:0;
+    z-index:1050;
+    color: #010101;
+  
+  padding: 0rem 2rem;
+}
+
+
   #menu{
-    
+    background-color: transparent;
     position: fixed;
     top: 0;
     right:0;
@@ -69,6 +98,13 @@ header{
     font-family: aw-conqueror-didot, serif;
   }
 
+
+  .navbar-brand img{
+    width: 85px;
+    max-width: 90%;;
+  }
+  
+
   .navbar-collapse{
     height: 100vh;
     //width: 200px; //20vw;
@@ -78,9 +114,6 @@ header{
     background-color: #FFFFFFB1;
   }
 
-#btnmenu{
-  padding: 0rem 2rem;
-}
 
 	.bar1,.bar3  {   
     width: 25px;
@@ -178,7 +211,7 @@ h1{
   font-size: 3rem;
   font-family: aw-conqueror-didot, serif;
   font-weight: 700;
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.215rem;
 }
 
 h1:hover{
@@ -199,22 +232,55 @@ h3{
   font-weight: 700;
 }
 
-h4{
+.soustitre13{ //h4
   font-size: .7rem;
   font-family: source-sans-pro, sans-serif;
   //font: normal normal normal 13px/17px source-sans-pro;
-  letter-spacing: 2.6px;
+  /*letter-spacing: 2.6px;*/
+  letter-spacing: 0.163rem;
   font-weight: 400;
+  color: #000;
+}
+
+.soustitre21{ 
+  font-size: 1.1rem;
+  font-family: source-sans-pro, sans-serif;
+  //font: normal normal normal 21px/27px Source Sans Pro;
+  /*letter-spacing: 4.2px;*/
+  letter-spacing: 0.25rem;
+  font-weight: 400;
+  color: #000;
+}
+
+
+.petittitrepage{ 
+  font-size: 1.2rem;
+  font-family: aw-conqueror-didot, serif; 
+  /*letter-spacing: 2.2px;*/
+  letter-spacing: 0.15rem;
+  font-weight: 700;
+  color: #010101;
+}
+
+.titreproduit{ 
+  font-size: 3rem;
+  font-family: aw-conqueror-didot, serif; 
+  /*letter-spacing: 3.24px;*/
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  color: #010101;
 }
 
 
 footer {
-  height: 30px;
-  font-size: 0.6rem;
+  //height: 30px;
+  font-size: 0.8rem;
+  letter-spacing: 0.08rem;
+  font-family: source-sans-pro, sans-serif;
 }
 
 .rs{ // réseaux sociaux
-  width: 22px;
+  width: 28px;
   margin: 5px;
 }
 
@@ -263,8 +329,10 @@ height:90%;
 
 .fermernl{
 	position: absolute;
-	top: 51px;
-	right: 41px;
+  top: 4vh;
+  right: 4vh;
+	//top: 51px;
+	//right: 41px;
     z-index: 999;
    /*     transform: rotate(45deg);
     transform-origin: center;*/
@@ -289,6 +357,59 @@ height:90%;
 }
 
 
+
+
+
+////////// cOLLECTION ///////////
+
+
+#collection {
+  //min-height: 100%;
+
+}
+
+/*
+#collection {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+*/
+
+
+.produitcollection{
+  display:flex; 
+  flex-direction:column;
+  justify-content: flex-end; 
+  height: 60vh;
+  //width: 60vh;
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+
+  html{
+    font-size: 80%;
+
+}
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+
+  html{
+    font-size: 75%;
+
+}
+
+}
+
 @media only screen and (max-width: 768px) {
 
 
@@ -296,5 +417,34 @@ height:90%;
     font-size: 70%;
 
 }
+
+.navbar-brand img{
+  width: 50px;
+}
+
+
+}
+
+@media only screen and (max-width: 576px) {
+
+
+.popup{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5vh;
+}
+
+#menu{
+  width: 100%;
+  background-color: #FFFFFF;
+  font-size: 1.5rem;
+}
+
+.navbar-nav{
+  width: 100%;
+  padding-top: 20vh;
+}
+
+
 
 }
