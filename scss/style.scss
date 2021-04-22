@@ -277,6 +277,11 @@ footer {
   font-size: 0.8rem;
   letter-spacing: 0.08rem;
   font-family: source-sans-pro, sans-serif;
+
+  .smaller{
+    font-size: 0.7rem;
+  }
+
 }
 
 .rs{ // réseaux sociaux
@@ -362,19 +367,6 @@ height:90%;
 
 ////////// cOLLECTION ///////////
 
-
-#collection {
-  //min-height: 100%;
-
-}
-
-/*
-#collection {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-*/
 
 
 .produitcollection{

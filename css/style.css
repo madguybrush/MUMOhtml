@@ -7032,6 +7032,9 @@ footer {
   letter-spacing: 0.08rem;
   font-family: source-sans-pro, sans-serif;
 }
+footer .smaller {
+  font-size: 0.7rem;
+}
 
 .rs {
   width: 28px;
@@ -7104,13 +7107,6 @@ footer {
   transition: all 1s;
 }
 
-/*
-#collection {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-*/
 .produitcollection {
   display: flex;
   flex-direction: column;
