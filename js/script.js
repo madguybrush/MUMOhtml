@@ -5,6 +5,12 @@
 	function resized(){
 		window_width = $( window ).width();
 		window_height = $( window ).height();
+
+		logoH = $('.navbar-brand').height();
+		//console.log(logoH);
+		logoH = 24 + (logoH / 2);
+		//console.log(calc(4rem – logoH));
+		$('#btnmenu').css('margin-top', logoH);
 	}
 
 
@@ -18,6 +24,8 @@ $( document ).ready( function() {
 $( window ).on('load', function(){ 
    // PAGE IS FULLY LOADED  
    // FADE OUT YOUR OVERLAYING DIV
+
+
 		
 		$('#loader').css('opacity', '0'); 
 		$('#loader').addClass('d-none ');
@@ -29,6 +37,11 @@ $( window ).on('load', function(){
 		$('footer').removeClass('d-none');
 	
 
+		logoH = $('.navbar-brand').height();
+		console.log(logoH);
+		logoH = 14 + (logoH / 2);
+		//console.log(calc(4rem – logoH));
+		$('#btnmenu').css('margin-top', logoH);
 
 		//resized();
 });

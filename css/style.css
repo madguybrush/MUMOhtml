@@ -6847,6 +6847,7 @@ header {
   right: 0;
   z-index: 1050;
   color: #010101;
+  margin-top: 34px;
   padding: 0rem 2rem;
 }
 
@@ -7001,7 +7002,7 @@ h3 {
 }
 
 .soustitre21 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: source-sans-pro, sans-serif;
   /*letter-spacing: 4.2px;*/
   letter-spacing: 0.25rem;
@@ -7037,8 +7038,8 @@ footer .smaller {
 }
 
 .rs {
-  width: 28px;
-  margin: 5px;
+  height: 15px;
+  margin: 4px;
 }
 
 .popup {
@@ -7131,6 +7132,10 @@ footer .smaller {
 
   .navbar-brand img {
     width: 50px;
+  }
+
+  #categorie {
+    margin-top: -15px !important;
   }
 }
 @media only screen and (max-width: 576px) {

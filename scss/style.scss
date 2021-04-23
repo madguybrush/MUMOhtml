@@ -74,7 +74,7 @@ header{
     right:0;
     z-index:1050;
     color: #010101;
-  
+  margin-top: 34px;
   padding: 0rem 2rem;
 }
 
@@ -243,7 +243,7 @@ h3{
 }
 
 .soustitre21{ 
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: source-sans-pro, sans-serif;
   //font: normal normal normal 21px/27px Source Sans Pro;
   /*letter-spacing: 4.2px;*/
@@ -285,8 +285,8 @@ footer {
 }
 
 .rs{ // réseaux sociaux
-  width: 28px;
-  margin: 5px;
+  height: 15px;
+  margin: 4px;
 }
 
 
@@ -414,6 +414,11 @@ height:90%;
   width: 50px;
 }
 
+#categorie{
+  //margin-top: 1rem!important;
+  margin-top: -15px!important;
+}
+
 
 }
 
@@ -436,6 +441,7 @@ height:90%;
   width: 100%;
   padding-top: 20vh;
 }
+
 
 
 

@@ -1,5 +1,12 @@
-<svg id="RESEAUX" xmlns="http://www.w3.org/2000/svg" width="48.912" height="22.995" viewBox="0 0 48.912 22.995">
-  <g id="Composant_4_3" data-name="Composant 4 – 3">
-    <path id="Tracé_86" data-name="Tracé 86" d="M87.793,22.995V12.519H91.37l.511-4.088H87.793V5.876c0-1.15.383-2.044,2.044-2.044h2.172V.128C91.5.128,90.22,0,88.815,0c-3.066,0-5.238,1.916-5.238,5.365V8.431H80v4.088h3.577V22.995Z" transform="translate(-80)" fill-rule="evenodd"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="RESEAUX" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 12 23" style="enable-background:new 0 0 12 23;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;}
+</style>
+<g id="Composant_4_3">
+	<path id="Tracé_86" class="st0" d="M7.8,23V12.5h3.6l0.5-4.1H7.8V5.9c0-1.2,0.4-2,2-2H12V0.1C11.5,0.1,10.2,0,8.8,0
+		C5.7,0,3.6,1.9,3.6,5.4v3.1H0v4.1h3.6V23H7.8z"/>
+</g>
 </svg>
