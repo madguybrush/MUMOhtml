@@ -35,17 +35,34 @@ html,
 body {
     height: 100%;
 }
-/*
-body {
-  min-height:100vh;
-}
 
-.flex-fill {
-  flex:1 1 auto;
-}
-*/
 #loader{
   display: flex;
+  flex-direction: column;
+  //animation: blink 1s;
+  //animation-iteration-count: infinite;
+  z-index: 9999;
+  position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+  background-color: rgba($color: #FFF, $alpha: 1);
+  /*background-image: url(../img/logo.svg);
+  background-color: rgba($color: #FFF, $alpha: 1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30vh; */
+  
+  //background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+}
+
+
+.spinner{
+  height: 50px;
+  width: 50px;
+  margin-top: 2rem;
+  //@include absolute-el(50%,0,0,50%,-50%, -50%);
 }
 
 header{
@@ -242,6 +259,15 @@ h3{
   color: #000;
 }
 
+.soustitre17{ 
+  font-size: 0.9rem;
+  font-family: source-sans-pro, sans-serif;
+  letter-spacing: 0.25rem;
+  font-weight: 600;
+  color: #000;
+  text-decoration: underline;
+}
+
 .soustitre21{ 
   font-size: 1rem;
   font-family: source-sans-pro, sans-serif;
@@ -365,7 +391,7 @@ height:90%;
 
 
 
-////////// cOLLECTION ///////////
+////////// COLLECTION ///////////
 
 
 
@@ -379,6 +405,27 @@ height:90%;
 
 
 
+////////// CONTACT ///////////
+
+
+.logocontact{
+
+  height: 20vh;
+}
+
+
+
+
+////////// TELECHARGEMENT ///////////
+
+@media only screen and (max-width: 992px) {
+.nobordermobile{
+  border: none!important;
+}
+
+}
+
+////////// RESPONSIVE ///////////
 
 
 @media only screen and (max-width: 1200px) {
@@ -416,7 +463,7 @@ height:90%;
 
 #categorie{
   //margin-top: 1rem!important;
-  margin-top: -15px!important;
+  margin-top: 25px!important;
 }
 
 

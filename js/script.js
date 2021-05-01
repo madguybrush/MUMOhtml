@@ -1,6 +1,52 @@
 	
-( function( $ )
-{
+//( function( $ )
+//{
+
+
+
+    $(window).on('load', function(){ 
+		// Animate loader off screen
+		//$("#loader").fadeOut("slow");
+		setTimeout(function (){
+		  $('#loader').addClass('fadeOut');
+		  $('#loader').css('opacity', '0'); 
+		  setTimeout(function (){
+			$('#loader').css("z-index", "-1");
+		  }, 1000);
+		}, 2000);
+			   //$('#loader').addClass('animated fadeOut');
+	  });
+
+
+
+	$( window ).on('load', function(){ 
+		// PAGE IS FULLY LOADED  
+		// FADE OUT YOUR OVERLAYING DIV
+	 
+		//$("img" ).on('load', function(){ 
+			 
+			/* $('#loader').css('opacity', '0'); 
+			 $('#loader').addClass('d-none fadeOut');
+			 $('header').removeClass('d-none');
+			 $('#menu').removeClass('d-none');
+			 $('main').removeClass('d-none');
+			 $('footer').removeClass('d-none');*/
+		 
+	 
+			 logoH = $('.navbar-brand').height();
+			 console.log(logoH);
+			 logoH = 14 + (logoH / 2);
+			 //console.log(calc(4rem – logoH));
+			 $('#btnmenu').css('margin-top', logoH);
+	 
+			 //resized();
+		//});
+	 });
+	 
+
+
+
+
 
 	function resized(){
 		window_width = $( window ).width();
@@ -14,37 +60,7 @@
 	}
 
 
-$( document ).ready( function() {
 
-//resized();
-
-});
-
-	   
-$( window ).on('load', function(){ 
-   // PAGE IS FULLY LOADED  
-   // FADE OUT YOUR OVERLAYING DIV
-
-
-		
-		$('#loader').css('opacity', '0'); 
-		$('#loader').addClass('d-none ');
-		
-		
-		$('header').removeClass('d-none');
-		$('#menu').removeClass('d-none');
-		$('main').removeClass('d-none');
-		$('footer').removeClass('d-none');
-	
-
-		logoH = $('.navbar-brand').height();
-		console.log(logoH);
-		logoH = 14 + (logoH / 2);
-		//console.log(calc(4rem – logoH));
-		$('#btnmenu').css('margin-top', logoH);
-
-		//resized();
-});
 
 
    	$( window ).resize(	function(){
@@ -114,7 +130,7 @@ $( window ).on('load', function(){
 
 
 
-   } )( jQuery );
+  // } )( jQuery );
    
 /*
 $('.fermercredits').on('click',function(){

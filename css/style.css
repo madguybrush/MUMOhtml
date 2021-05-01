@@ -6814,17 +6814,27 @@ body {
   height: 100%;
 }
 
-/*
-body {
-  min-height:100vh;
-}
-
-.flex-fill {
-  flex:1 1 auto;
-}
-*/
 #loader {
   display: flex;
+  flex-direction: column;
+  z-index: 9999;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  /*background-image: url(../img/logo.svg);
+  background-color: rgba($color: #FFF, $alpha: 1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30vh; */
+}
+
+.spinner {
+  height: 50px;
+  width: 50px;
+  margin-top: 2rem;
 }
 
 header {
@@ -7001,6 +7011,15 @@ h3 {
   color: #000;
 }
 
+.soustitre17 {
+  font-size: 0.9rem;
+  font-family: source-sans-pro, sans-serif;
+  letter-spacing: 0.25rem;
+  font-weight: 600;
+  color: #000;
+  text-decoration: underline;
+}
+
 .soustitre21 {
   font-size: 1rem;
   font-family: source-sans-pro, sans-serif;
@@ -7115,6 +7134,15 @@ footer .smaller {
   height: 60vh;
 }
 
+.logocontact {
+  height: 20vh;
+}
+
+@media only screen and (max-width: 992px) {
+  .nobordermobile {
+    border: none !important;
+  }
+}
 @media only screen and (max-width: 1200px) {
   html {
     font-size: 80%;
@@ -7135,7 +7163,7 @@ footer .smaller {
   }
 
   #categorie {
-    margin-top: -15px !important;
+    margin-top: 25px !important;
   }
 }
 @media only screen and (max-width: 576px) {
