@@ -28,7 +28,15 @@ html{
     //font-size: 16px;
     min-height: 100vh;
     font-size: 100%;
+    color: black;
+}
 
+.black{
+  color : black;
+}
+
+.almostblack{
+  color: $almostblack;
 }
 
 html, 
@@ -213,13 +221,13 @@ main {
 }
 
 a{
-  color: #010101;
+  //color: #010101;
   text-decoration: none;
   //transition: all 1s;
   //font-weight: 400;
 }
 a:hover{
-  color: #010101;
+  //color: #010101;
   text-decoration: none;
   font-weight: 600;
 }
@@ -229,12 +237,12 @@ h1{
   font-family: aw-conqueror-didot, serif;
   font-weight: 700;
   letter-spacing: 0.215rem;
+  //color: $almostblack!important;
 }
 
-h1:hover{
+a:hover{
   text-decoration: underline;
 }
-
 
 h2{
   font-size: 2rem;
@@ -256,7 +264,7 @@ h3{
   /*letter-spacing: 2.6px;*/
   letter-spacing: 0.163rem;
   font-weight: 400;
-  color: #000;
+  //color: #000;
 }
 
 .soustitre17{ 
@@ -264,7 +272,7 @@ h3{
   font-family: source-sans-pro, sans-serif;
   letter-spacing: 0.25rem;
   font-weight: 600;
-  color: #000;
+  //color: #000;
   text-decoration: underline;
 }
 
@@ -275,9 +283,14 @@ h3{
   /*letter-spacing: 4.2px;*/
   letter-spacing: 0.25rem;
   font-weight: 400;
-  color: #000;
+  //text-transform: uppercase;
+  //color: #000;
 }
 
+p{
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+}
 
 .petittitrepage{ 
   font-size: 1.2rem;
@@ -285,7 +298,7 @@ h3{
   /*letter-spacing: 2.2px;*/
   letter-spacing: 0.15rem;
   font-weight: 700;
-  color: #010101;
+  color: $almostblack;
 }
 
 .titreproduit{ 
@@ -294,7 +307,7 @@ h3{
   /*letter-spacing: 3.24px;*/
   letter-spacing: 0.2rem;
   font-weight: 700;
-  color: #010101;
+  //color: $almostblack;
 }
 
 
