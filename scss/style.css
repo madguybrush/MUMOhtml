@@ -7401,6 +7401,20 @@ p {
   font-weight: 700;
 }
 
+.titreproduit32 {
+  font-size: 1.8rem;
+  font-family: aw-conqueror-didot, serif;
+  letter-spacing: 0.09rem;
+  font-weight: 700;
+}
+
+.titreproduit34 {
+  font-size: 1.9rem;
+  font-family: aw-conqueror-didot, serif;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
 footer {
   font-size: 0.8rem;
   letter-spacing: 0.08rem;
@@ -7504,6 +7518,20 @@ footer .smaller {
   .nobordermobile {
     border: none !important;
   }
+}
+
+.logoapropos {
+  height: 115px;
+}
+
+.soustitre18 {
+  font-size: 0.95rem;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 600;
+}
+
+.img100 {
+  width: 100%;
 }
 
 @media only screen and (max-width: 1200px) {

@@ -276,6 +276,13 @@ h3{
   text-decoration: underline;
 }
 
+.soustitre19{ 
+  font-size: 0.95rem;
+  font-family: source-sans-pro, sans-serif;
+  letter-spacing: 0.095rem;
+  font-weight: 400;
+}
+
 .soustitre21{ 
   font-size: 1rem;
   font-family: source-sans-pro, sans-serif;
@@ -315,6 +322,20 @@ p{
   font-weight: 700;
   //color: $almostblack;
 }
+
+.titreproduit32{
+  font-size: 1.8rem;
+  font-family: aw-conqueror-didot, serif; 
+  letter-spacing: 0.09rem;
+  font-weight: 700;
+} 
+
+.titreproduit34{
+  font-size: 1.9rem;
+  font-family: aw-conqueror-didot, serif; 
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+} 
 
 
 footer {
@@ -442,6 +463,26 @@ height:90%;
   border: none!important;
 }
 
+}
+
+
+////////// A PROPOS ///////////
+
+.logoapropos{
+
+  height: 115px;
+}
+
+.soustitre18{ 
+  font-size: 0.95rem;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 600;
+}
+
+////////// COLLABORATIONS ///////////
+
+.img100{
+  width: 100%;
 }
 
 ////////// RESPONSIVE ///////////
