@@ -254,7 +254,7 @@ h2{
 h3{
   font-size: 1.3rem;
   font-family: aw-conqueror-didot, serif;
-  font-weight: 700;
+  font-weight: 500; // 700;
 }
 
 .soustitre13{ //h4
@@ -271,9 +271,13 @@ h3{
   font-size: 0.9rem;
   font-family: source-sans-pro, sans-serif;
   letter-spacing: 0.25rem;
-  font-weight: 600;
+  font-weight: 500;
   //color: #000;
   text-decoration: underline;
+}
+
+.contact:hover{
+  font-weight: 600;
 }
 
 .soustitre19{ 
