@@ -489,6 +489,13 @@ height:90%;
   width: 100%;
 }
 
+
+////////// ARCHITECTURE D'INTERIEUR (SUR-MESURE) ///////////
+
+.h500{
+  height: 30vw; //500px;
+}
+
 ////////// RESPONSIVE ///////////
 
 
@@ -499,7 +506,11 @@ height:90%;
     font-size: 80%;
 
 }
-
+/*
+.h500{
+  min-height: 300px;
+}
+*/
 }
 
 
@@ -535,6 +546,10 @@ height:90%;
 
 @media only screen and (max-width: 576px) {
 
+  /*.h500{
+    min-height: 150px;
+  }*/
+  
 
 .popup{
   padding-left: 5%;

@@ -7195,10 +7195,20 @@ footer .smaller {
   width: 100%;
 }
 
+.h500 {
+  height: 30vw;
+}
+
 @media only screen and (max-width: 1200px) {
   html {
     font-size: 80%;
   }
+
+  /*
+  .h500{
+    min-height: 300px;
+  }
+  */
 }
 @media only screen and (max-width: 1024px) {
   html {
@@ -7219,6 +7229,9 @@ footer .smaller {
   }
 }
 @media only screen and (max-width: 576px) {
+  /*.h500{
+    min-height: 150px;
+  }*/
   .popup {
     padding-left: 5%;
     padding-right: 5%;
