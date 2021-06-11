@@ -7170,6 +7170,52 @@ footer .smaller {
   flex-direction: column;
   justify-content: flex-end;
   height: 60vh;
+  transition: all 1s;
+}
+
+.produitcollection:hover {
+  opacity: 0.5;
+}
+
+.hide {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.produitcollection:hover .hide {
+  opacity: 1;
+}
+
+.bx-wrapper {
+  box-shadow: none;
+  border: none;
+}
+
+.btn:focus, .btn:active {
+  box-shadow: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn span {
+  transform: rotate(90deg);
+}
+
+.btn.collapsed span {
+  transform: rotate(0deg);
+}
+
+/*
+.btn:active span{
+  transform: rotate(90deg);
+}
+
+.btn:hover span{
+  transform: rotate(90deg);
+}*/
+.btn:hover {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .logocontact {

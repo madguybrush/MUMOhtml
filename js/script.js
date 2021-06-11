@@ -40,6 +40,20 @@
 			 $('#btnmenu').css('margin-top', logoH);
 	 
 			 //resized();
+
+			 $('.slider').bxSlider({
+				auto: false,
+			minSlides: 3,
+			maxSlides: 3,
+		   slideWidth: 300,
+		   //slideHeight: 200,
+		   //adaptiveHeight: true,
+			slideMargin: 20,
+			controls: true,
+			pager: false,
+			infiniteLoop: false,
+			hideControlOnEnd: true
+		  }); 
 		//});
 	 });
 	 
