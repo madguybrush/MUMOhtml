@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
     <link rel="stylesheet" href="css/animate.css">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="https://use.typekit.net/frc4fft.css">
@@ -48,6 +49,366 @@
     </div>
 
 
+    <div id="popupFinitions" class="popupFinitions">
+      <div class="popupFinitionscontent animated fadeInDown">
+          <div class="fermerFinitions">
+            <a class="btnfermernl" href="#"><img src="img/fermer.png" style="filter: invert(100%);"></a>
+          </div>
+          <img src="img/collection/produit1/02-zoom.png" alt="" />
+      </div>
+    </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+
+                  
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <!--<span aria-hidden="true">&times;</span>-->
+                    <a class="btnfermernl" href="#"><img src="img/fermer.png"></a>
+                  </button>
+                </div>
+                <div class="modal-body">
+
+
+                  <div class="container-fluid px-sm-3 animated fadeIn h-100">
+                    <div class="row no-gutters h-100">
+        
+                      <div class="col-lg-5 offset-lg-1 col-10 offset-1 pr-lg-1 p-lg-0 p-1 h-100">
+                        <div class="mb-2" style="min-height: 50vh;  background-image: url('img/collection/1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: top;">
+                        </div>
+                          <div class="slider2">
+                              <img src="img/collection/produit1/fauteuilu.jpg" alt=""> 
+                              <img  src="img/collection/produit1/fauteuilu.jpg" alt=""> 
+                              <img  src="img/collection/produit1/fauteuilu.jpg" alt=""> 
+                              <img  src="img/collection/produit1/fauteuilu.jpg" alt=""> 
+                              <img src="img/collection/produit1/fauteuilu.jpg" alt=""> 
+                          </div>
+        
+                      </div>
+        
+                      <div class="col-lg-5 offset-lg-0 col-10 offset-1 pl-lg-1 pb-lg-1 p-lg-0 p-1 "> 
+        
+                        <div class="row p-4 ">
+                          <div class="col-12">
+                            <h1 class="titreproduit32 mb-1">FAUTEUIL U</h1>
+                          </div>
+                          <div class="col-12 soustitre13 mb-2">
+                            <a href="collection.html">COLLECTION</a> > ASSISES
+                          </div>
+                          <div class="accordion col-12" id="accordion">
+                            <div class="card">
+                              <div class="card-header" id="description">
+                                <h2 class="mb-0" style="border-bottom: 1px solid #707070;">
+                                  <button class="collapsed px-0 soustitre13 btn btn-link btn-block text-left d-flex justify-content-between" type="button" data-toggle="collapse" data-target="#collapseDescription" aria-expanded="true" aria-controls="collapseDescription">
+                                    DESCRIPTION 
+                                    <span style="text-align: right;">></span>
+                                  </button>
+                                </h2>
+                              </div>
+                          
+                              <div id="collapseDescription" class="collapse" aria-labelledby="description" data-parent="#accordion">
+                                <div class="card-body texte13">
+                                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0" style="border-bottom: 1px solid #707070;">
+                                  <button class="collapsed px-0 soustitre13 btn btn-link btn-block text-left d-flex justify-content-between" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    FINITIONS / COLORIS 
+                                    <span style="text-align: right;">></span>
+                                  </button>
+                                </h2>
+                              </div>
+                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body container-fluid no-gutters">
+                                  <div class="row">
+                                    <div class="col-12 texte13 pt-2 px-0">
+                                      Assise Cuir
+                                    </div>
+                                  </div>
+                                  <div class="row justify-content-between">
+                                    <div class="col-4 pt-2 px-1">
+                                      <a href="#" onclick="popinFinitions()" class="lienpopin">
+                                        <img src="img/collection/produit1/01.png" alt="" />
+                                      </a>
+                                      <span class="pl-1 soustitre12">CUIR 0001</span>
+                                    </div>
+                                    <div class="col-4 pt-2 px-1 text-center">
+                                      <a href="#" onclick="popinFinitions()" class="lienpopin">
+                                        <img src="img/collection/produit1/02.png" alt="" />
+                                      </a>
+                                      <span class="pl-1 soustitre12">CUIR 0001</span>
+                                    </div>
+                                    <div class="col-4 pt-2 px-1 text-right">
+                                      <a href="#" onclick="popinFinitions()" class="lienpopin">
+                                        <img src="img/collection/produit1/03.png" alt="" />
+                                      </a>
+                                      <span class="pl-1 soustitre12">CUIR 0001</span>
+                                    </div>
+              
+                                    <div class="col-4 pt-2 px-1">
+                                      <a href="#" onclick="popinFinitions()" class="lienpopin">
+                                        <img src="img/collection/produit1/04.png" alt="" />
+                                      </a>
+                                      <span class="pl-1 soustitre12">CUIR 0001</span>
+                                    </div>
+                                    <div class="col-4 pt-2 px-1 text-center">
+                                      <a href="#" onclick="popinFinitions()" class="lienpopin">
+                                        <img src="img/collection/produit1/05.png" alt="" />
+                                      </a>
+                                      <span class="pl-1 soustitre12">CUIR 0001</span>
+                                    </div>
+                                    <div class="col-4 pt-2 px-1 text-right">
+                                      <a href="#" onclick="popinFinitions()" class="lienpopin">
+                                        <img src="img/collection/produit1/06.png" alt="" />
+                                      </a>
+                                      <span class="pl-1 soustitre12">CUIR 0001</span>
+                                    </div>
+                                  </div> 
+                                  <div class="row">
+                                    <div class="col-12 texte13 pt-2 px-0">
+                                      Structure Métal
+                                    </div>
+                                  </div>
+                                  <div class="row justify-content-between pb-3">
+                                    <div class="col-4 pt-2 px-1">
+                                      <img src="img/collection/produit1/04.png" alt="" /> 
+                                      <span class="pl-1 soustitre12">STEEL 0001</span>
+                                    </div>
+                                    <div class="col-4 pt-2 px-1 text-center">
+                                      <img src="img/collection/produit1/04.png" alt="" />
+                                      <span class="pl-1 soustitre12">STEEL 0001</span>
+                                    </div>
+                                    <div class="col-4 pt-2 px-1 text-right">
+                                      <img src="img/collection/produit1/04.png" alt="" />
+                                      <span class="pl-1 soustitre12">STEEL 0001</span>
+                                    </div>
+                                    <div class="col-4 pt-2 px-1">
+                                      <img src="img/collection/produit1/04.png" alt="" /> 
+                                      <span class="pl-1 soustitre12">STEEL 0001</span>
+                                    </div>
+                                    <div class="col-4 pt-2 px-1 text-center">
+                                      <img src="img/collection/produit1/04.png" alt="" />
+                                      <span class="pl-1 soustitre12">STEEL 0001</span>
+                                    </div>
+                                    <div class="col-4 pt-2 px-1 text-right">
+                                      <img src="img/collection/produit1/04.png" alt="" />
+                                      <span class="pl-1 soustitre12">STEEL 0001</span>
+                                    </div>
+                                  </div> 
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="headingThree">
+                                <h2 class="mb-0" style="border-bottom: 1px solid #707070;">
+                                  <button class="collapsed px-0 soustitre13 btn btn-link btn-block text-left d-flex justify-content-between" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    FICHE TECHNIQUE
+                                    <span style="text-align: right;">></span>
+                                  </button>
+                                </h2>
+                              </div>
+                              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body texte13">
+                                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="col-12 px-0 pt-4 soustitre13">
+                              <p><a href="">Demander les prix</a> / <a href="">Télécharger la fiche</a> / <a href="">Télécharger les photos</a></p>
+                            </div>
+                            
+                          </div>
+                        </div>
+                     </div>
+        
+                    </div>
+                  </div>
+
+
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+    <div id="popupProduit" class="popupProduit">
+      <div class="popupProduitcontent animated fadeInDown">
+          <div class="fermerProduit">
+            <a class="btnfermernl" href="#"><img src="img/fermer.png"></a>
+          </div>
+   
+
+          <div class="container-fluid px-sm-3 animated fadeIn h-100">
+            <div class="row no-gutters py-3 h-100">
+
+              <div class="col-lg-5 offset-lg-1 col-10 offset-1 pr-lg-1 p-lg-0 p-1 h-100">
+                <div class="mb-2 h-50" style="background-image: url('img/collection/1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: top;">
+                </div>
+                  <div class="slider2 h-50">
+                      <img src="img/collection/produit1/fauteuilu.jpg" alt=""> 
+                      <img  src="img/collection/produit1/fauteuilu.jpg" alt=""> 
+                      <img  src="img/collection/produit1/fauteuilu.jpg" alt=""> 
+                      <img  src="img/collection/produit1/fauteuilu.jpg" alt=""> 
+                      <img src="img/collection/produit1/fauteuilu.jpg" alt=""> 
+                  </div>
+
+              </div>
+
+              <div class="col-lg-5 offset-lg-0 col-10 offset-1 pl-lg-1 pb-lg-1 p-lg-0 p-1 "> 
+
+                <div class="row p-4 ">
+                  <div class="col-12">
+                    <h1 class="titreproduit32 mb-1">FAUTEUIL U</h1>
+                  </div>
+                  <div class="col-12 soustitre13 mb-2">
+                    <a href="collection.html">COLLECTION</a> > ASSISES
+                  </div>
+                  <div class="accordion col-12" id="accordion">
+                    <div class="card">
+                      <div class="card-header" id="description">
+                        <h2 class="mb-0" style="border-bottom: 1px solid #707070;">
+                          <button class="collapsed px-0 soustitre13 btn btn-link btn-block text-left d-flex justify-content-between" type="button" data-toggle="collapse" data-target="#collapseDescription" aria-expanded="true" aria-controls="collapseDescription">
+                            DESCRIPTION 
+                            <span style="text-align: right;">></span>
+                          </button>
+                        </h2>
+                      </div>
+                  
+                      <div id="collapseDescription" class="collapse" aria-labelledby="description" data-parent="#accordion">
+                        <div class="card-body texte13">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0" style="border-bottom: 1px solid #707070;">
+                          <button class="collapsed px-0 soustitre13 btn btn-link btn-block text-left d-flex justify-content-between" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            FINITIONS / COLORIS 
+                            <span style="text-align: right;">></span>
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body container-fluid no-gutters">
+                          <div class="row">
+                            <div class="col-12 texte13 pt-2 px-0">
+                              Assise Cuir
+                            </div>
+                          </div>
+                          <div class="row justify-content-between">
+                            <div class="col-4 pt-2 px-1">
+                              <a href="#" onclick="popinFinitions()" class="lienpopin">
+                                <img src="img/collection/produit1/01.png" alt="" />
+                              </a>
+                              <span class="pl-1 soustitre12">CUIR 0001</span>
+                            </div>
+                            <div class="col-4 pt-2 px-1 text-center">
+                              <a href="#" onclick="popinFinitions()" class="lienpopin">
+                                <img src="img/collection/produit1/02.png" alt="" />
+                              </a>
+                              <span class="pl-1 soustitre12">CUIR 0001</span>
+                            </div>
+                            <div class="col-4 pt-2 px-1 text-right">
+                              <a href="#" onclick="popinFinitions()" class="lienpopin">
+                                <img src="img/collection/produit1/03.png" alt="" />
+                              </a>
+                              <span class="pl-1 soustitre12">CUIR 0001</span>
+                            </div>
+      
+                            <div class="col-4 pt-2 px-1">
+                              <a href="#" onclick="popinFinitions()" class="lienpopin">
+                                <img src="img/collection/produit1/04.png" alt="" />
+                              </a>
+                              <span class="pl-1 soustitre12">CUIR 0001</span>
+                            </div>
+                            <div class="col-4 pt-2 px-1 text-center">
+                              <a href="#" onclick="popinFinitions()" class="lienpopin">
+                                <img src="img/collection/produit1/05.png" alt="" />
+                              </a>
+                              <span class="pl-1 soustitre12">CUIR 0001</span>
+                            </div>
+                            <div class="col-4 pt-2 px-1 text-right">
+                              <a href="#" onclick="popinFinitions()" class="lienpopin">
+                                <img src="img/collection/produit1/06.png" alt="" />
+                              </a>
+                              <span class="pl-1 soustitre12">CUIR 0001</span>
+                            </div>
+                          </div> 
+                          <div class="row">
+                            <div class="col-12 texte13 pt-2 px-0">
+                              Structure Métal
+                            </div>
+                          </div>
+                          <div class="row justify-content-between pb-3">
+                            <div class="col-4 pt-2 px-1">
+                              <img src="img/collection/produit1/04.png" alt="" /> 
+                              <span class="pl-1 soustitre12">STEEL 0001</span>
+                            </div>
+                            <div class="col-4 pt-2 px-1 text-center">
+                              <img src="img/collection/produit1/04.png" alt="" />
+                              <span class="pl-1 soustitre12">STEEL 0001</span>
+                            </div>
+                            <div class="col-4 pt-2 px-1 text-right">
+                              <img src="img/collection/produit1/04.png" alt="" />
+                              <span class="pl-1 soustitre12">STEEL 0001</span>
+                            </div>
+                            <div class="col-4 pt-2 px-1">
+                              <img src="img/collection/produit1/04.png" alt="" /> 
+                              <span class="pl-1 soustitre12">STEEL 0001</span>
+                            </div>
+                            <div class="col-4 pt-2 px-1 text-center">
+                              <img src="img/collection/produit1/04.png" alt="" />
+                              <span class="pl-1 soustitre12">STEEL 0001</span>
+                            </div>
+                            <div class="col-4 pt-2 px-1 text-right">
+                              <img src="img/collection/produit1/04.png" alt="" />
+                              <span class="pl-1 soustitre12">STEEL 0001</span>
+                            </div>
+                          </div> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingThree">
+                        <h2 class="mb-0" style="border-bottom: 1px solid #707070;">
+                          <button class="collapsed px-0 soustitre13 btn btn-link btn-block text-left d-flex justify-content-between" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            FICHE TECHNIQUE
+                            <span style="text-align: right;">></span>
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body texte13">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-12 px-0 pt-4 soustitre13">
+                      <p><a href="">Demander les prix</a> / <a href="">Télécharger la fiche</a> / <a href="">Télécharger les photos</a></p>
+                    </div>
+                    
+                  </div>
+                </div>
+             </div>
+
+            </div>
+          </div>
+
+      </div>
+    </div>
     
 
 
@@ -117,6 +478,7 @@
           <h1 class="titreproduit pt-3">SATELLITE</h1>
           <h2 class="soustitre21">LUSTRE / FEUILLE D’OR / ACIER</h2>
           <p>Bordeaux, Septembre 2018</p>
+
         </div>
       </div>
 
@@ -127,6 +489,17 @@
           <div class="row">
             <div class="col-5">
               <img src="img/surmesure/produit1.png" class=" w-100" />
+              <div class="ouvrirProduit">
+                <!--<a class="btnfermernl lienpopin" href="#" onclick="popinProduit()">
+                  <img src="img/fermer.png" style="filter: invert(100%); transform: rotate(45deg);">
+                </a>-->
+              
+              
+          <button type="button" class="btnfermernl lienpopin" style="background-color: transparent;" data-toggle="modal" data-target="#exampleModal">
+            <img src="img/fermer.png" style="filter: invert(100%); transform: rotate(45deg);">
+          </button>
+          
+              </div>
             </div>
             <div class="col-5 offset-2">
               <img src="img/surmesure/produit1.png" class=" w-100" />
@@ -208,10 +581,32 @@
       <div class="row no-gutters py-5 "><!-- justify-content-center align-items-center -->
 
         <div class="col-md-10 offset-md-1 text-center "> <!-- p-1  -->
-          <div class="soustitre13 pt-3">
+          <div class="soustitre13 pb-2">
             PRODUITS ASSOCIÉS
           </div>
 
+          <div class="row">
+            <div class="col-md-3 text-center px-1">
+              <img src="img/surmesure/produitsassocies/1.png" alt="" class="img-fluid">
+              <p class="titreproduit27 pt-2 mb-0"><a href="collection-produit.html">FAUTEUIL U</a></p>
+              <p class="soustitre21">ASSISE</p>
+            </div>
+            <div class="col-md-3 text-center  px-1">
+              <img src="img/surmesure/produitsassocies/3.png" alt="" class="img-fluid">
+              <p class="titreproduit27 pt-2 mb-0"><a href="surmesure-produit.html">SATELLITE</a></p>
+              <p class="soustitre21">COLLECTION PARTICULIÈRE</p>
+            </div>
+            <div class="col-md-3 text-center  px-1">
+              <img src="img/surmesure/produitsassocies/4.png" alt="" class="img-fluid">
+              <p class="titreproduit27 pt-2 mb-0">WALNUT TABLE</p>
+              <p class="soustitre21">TABLE</p>
+            </div>
+            <div class="col-md-3 text-center  px-1">
+              <img src="img/surmesure/produitsassocies/2.png" alt="" class="img-fluid">
+              <p class="titreproduit27 pt-2 mb-0">FAUTEUIL U/001</p>
+              <p class="soustitre21">COLLECTION PARTICULIÈRE</p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -242,6 +637,7 @@
     </footer>
 
     <script type='text/javascript' src='js/jquery-3.5.1.min.js'></script>
+    <script type='text/javascript' src='js/jquery.bxslider.min.js'></script>
     <script type='text/javascript' src='js/bootstrap.bundle.min.js'></script>
     <script type='text/javascript' src='js/script.js'></script>
   </body>
